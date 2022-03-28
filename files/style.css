@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(background12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#navbar1 {
+  border-bottom: solid gray 1px;
+  margin-bottom: 2px;
+}
+#navbar1 a {
+  color: gray;
+  font-size: 12px;
+}
+#navbar1 .container-fluid{
+  padding-left: 0!important;
+}
+#navbar2 {
+  background-color: #d9d7d8;
+  padding: 0;
+}
+#navbar2 .navbar {
+  padding: 0;
+}
+#navbar2 button.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+#navbar2 .nav-item {
+  border-right: solid white 1px;
+}
+#navbar2 .nav-link {
+  color: black;
+  font-size: small;
+}
+.elements.col-lg-9 {
+  align-items: flex-start;
+}
+#navbar3 {
+  padding-top: 4px;
+  border-top: solid gray 1px;
+  margin-top: 2px;
+  border-bottom: solid gray 1px;
+}
+#nav3row {
+  justify-content: center;
+  align-items: center;
+}
+#navbar3 a {
+  padding-top: 50px;
+  color: steelblue;
+
+  text-decoration: none;
+  padding: 10px;
+}
+#nav3Row {
+  border-bottom: 1px solid gray;
+}
+
+.bidelogo {
+  float: right;
+}
+#main .container {
+  background-color: white;
+
+  padding-top: 10px;
+}
+.col-lg-9 {
+  padding-left: 0 !important;
+}
+
+#list {
+  background-color: rgba(5, 4, 4, 0.753);
+  padding: 40px 20px 10px 30px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  position: relative;
+}
+.btn {
+  border-radius: 10px !important;
+  background-color: white !important;
+  
+  height: 23px;
+  padding-top: 0 !important;
+  font-size: small !important;
+  
+}
+.btn_2 {
+  border-radius: 10px !important;
+  background-color: white !important;
+
+  height: 22px;
+  padding-top: 0 !important;
+  width: 45px;
+  font-size: small !important;
+}
+
+#list h3,
+h5,
+p,
+a {
+  color: rgb(248, 246, 246);
+}
+#list::after {
+  position: absolute;
+  inset: 10px;
+  border: 1px solid gray;
+  content: "";
+}
+#list h5 {
+  padding-bottom: 5px;
+  font-size: 15px;
+  border-bottom: solid gray;
+  border-bottom-width: thin;
+}
+#promo .container {
+  background-color: black;
+  padding: 10px;
+}
+
+#promoCol h5 {
+  color: black;
+  font-weight: normal !important;
+}
+#promoCol p {
+  color: gray;
+  font-size: 14px;
+}
+#footer {
+  padding-top: 2px;
+  padding-bottom: 15px;
+}
+#footer .col-md-8 a {
+  color: #666565;
+  font-size: 14px;
+  font-weight: 400;
+}
+#footer .col-md-4 a {
+  color: #666565;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card{
+  border-radius: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .recipe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #promoCol {
+    width: 100%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  #promoCol img {
+    height: 300px;
+    padding-top: 20px;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  #promoCol h5 {
+    font-size: 17px;
+  }
+  .img2 {
+    padding-top: 80px !important;
+  }
+  .img3 {
+    width: 100%;
+    padding-top: 50px !important;
+    padding-left: 80px;
+  }
+  .lastCard p {
+    padding-right: 120px;
+  }
+  .lastCard h5 {
+    padding-right: 130px;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .search_2 {
+    display: initial;
+  }
+  .search_1 {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .recipe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #list {
+    padding-right: 30px;
+  }
+  #promoCol {
+    width: 100%;
+  }
+  #promoCol img {
+    height: 300px;
+  }
+  .lastCard img {
+    width: 100% !important;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  #promoCol h5 {
+    font-size: 17px;
+  }
+  .lastCard p {
+    padding-right: 120px;
+  }
+  .lastCard h5 {
+    padding-right: 130px;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #list {
+    padding-top: 20px;
+  }
+  #list h3 {
+    font-size: 25px;
+  }
+  #list a {
+    font-size: 10px !important;
+  }
+  .recipe {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  #promoCol {
+    width: 50%;
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  #promoCol :first-child {
+    display: flex;
+    align-items: flex-start;
+  }
+  #promoCol img {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .lastCard img {
+    width: 70% !important;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  #promoCol h5 {
+    font-size: 17px;
+  }
+  .lastCard p {
+    padding-right: 120px;
+  }
+  .lastCard h5 {
+    padding-right: 130px;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    margin-left: 30vh;
+  }
+
+  #list {
+    padding-top: 20px;
+  }
+  #list h3 {
+    font-size: 25px;
+  }
+  #list a {
+    font-size: 10px !important;
+  }
+  #list h5:first-child {
+    padding-top: 10px;
+  }
+  .recipe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #promoCol {
+    width: 33%;
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  #promoCol :first-child {
+    display: flex;
+    align-items: flex-start;
+  }
+  #promoCol img {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .lastCard img {
+    width: 70% !important;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  #promoCol h5 {
+    font-size: 17px;
+  }
+  .lastCard p {
+    padding-right: 120px;
+  }
+  .lastCard h5 {
+    padding-right: 130px;
+  }
+  .img2 {
+    padding-top: 70px !important;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width: 1040px) {
+  .navbar-nav {
+    margin-left: 10vh;
+  }
+  #list {
+    padding-top: 50px;
+  }
+  #list p {
+    padding-top: 20px;
+  }
+  #list h5:first-child {
+    padding-top: 10px !important;
+  }
+  .recipe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #promoCol {
+    width: 33.3%;
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  #promoCol :first-child {
+    display: flex;
+    align-items: flex-start;
+  }
+  #promoCol img {
+    width: 100%;
+    height: 90%;
+  }
+  .img1 {
+    padding-top: 30px;
+  }
+  .img2 {
+    padding-top: 100px !important;
+  }
+  .img3 {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  .lastCard p {
+    padding-right: 160px;
+  }
+  .lastCard h5 {
+    padding-right: 160px;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .search_2 {
+    display: none;
+  }
+  .search_1 {
+    display: initial;
+  }
+  .container {
+    max-width: 1040px !important;
+  }
+}
+
+
+@media only screen and (min-width: 1240px) {
+  .navbar-nav {
+    margin-left: 28vh;
+  }
+  #list {
+    padding-top: 50px;
+  }
+  #list p {
+    padding-top: 20px;
+  }
+  #list h5:first-child {
+    padding-top: 10px !important;
+  }
+  .recipe {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  #promoCol {
+    width: 33.3%;
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  #promoCol :first-child {
+    display: flex;
+    align-items: flex-start;
+  }
+  #promoCol img {
+    width: 100%;
+    height: 90%;
+  }
+  .img1 {
+    padding-top: 30px;
+  }
+  .img2 {
+    padding-top: 100px !important;
+  }
+  .img3 {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  #promoCol a {
+    color: steelblue;
+    float: right;
+    padding-right: 10px;
+  }
+  .lastCard p {
+    padding-right: 160px;
+  }
+  .lastCard h5 {
+    padding-right: 160px;
+  }
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .search_2 {
+    display: none;
+  }
+  .search_1 {
+    display: initial;
+  }
+  .container {
+    max-width: 1020px !important;
+  }
+}
